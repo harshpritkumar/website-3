@@ -1,0 +1,215 @@
+/*****************************main selectors******************************************/
+/*************************************************************************************/
+body{
+	text-align: center;
+}
+
+/*****************************class selectors******************************************/
+/*************************************************************************************/
+
+
+.brand-custom{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 45px;
+}
+
+.card-custom {
+	margin-bottom: 31px;
+}
+
+.card-name {
+	background-color: #C0C0C0;
+	padding: 20px;
+}
+
+.colored-section {
+	background-color: #ef8172;
+}
+
+.fa {
+	color: black;
+}
+
+.feature-box {
+	padding: 4.5%;
+}
+
+.feature-logo {
+	margin-bottom: 20px;
+	color: #ef8172;
+}
+
+.main-theme{
+	width: 80%;
+	line-height: 1.5;
+	color: white;
+	font-size: 3.5rem;
+}
+
+.main-theme-button {
+	margin: 30px 20px 0 0; 
+}
+
+.main-theme-container{
+	text-align: left;
+	width: 70%;
+	padding-bottom: 80px;
+}	
+
+.main-theme-image{
+	width: 60%;
+	transform: rotate(25deg);
+	margin-left: 50px;
+	position: absolute;
+}
+
+.nav-edit{
+	width: 70%;
+	margin: 0px auto 90px auto;
+	padding-top: 50px;
+}
+
+.navigation-list{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 110%;
+}
+
+.pricing-card{
+	margin: 10px auto 50px auto;
+	width: 90%;
+}
+
+.pricing-theme { 
+	font-size: 2.8rem;
+	line-height: 1.5;
+	margin: 100px auto 10px auto;
+}
+
+.pricing-info {
+	margin: 15px auto 80px auto;
+	font-size: 1.1rem;
+	color: grey;
+}
+
+.testimonial-image {
+	border-radius: 100%;
+	width: 100px;
+	margin: 20px;
+}
+
+.social-media {
+	padding: 80px 15px 20px 15px;
+	color: black;
+}
+
+
+/*****************************id selectors******************************************/
+/***********************************************************************************/
+
+#cta {
+	background-color:#ff4c68; 
+}
+
+#cta button {
+	margin: 0px 20px 130px 0;
+}
+
+#cta h3{
+	font-size: 3em;
+	width: 60%;
+	padding-top: 120px;
+	padding-bottom: 20px;
+	margin: 20px auto 50px auto;
+	color: white;
+}
+
+#footer p {
+	font-size: 1.1rem;
+	color: grey;
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+#title {
+	background-color: #ff4c68;
+	margin-top: 0px;
+	color: white;
+}
+
+#features {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+#features p {
+	width: 230px;
+	margin: 0 auto 0 auto;
+}
+
+
+#testimonials {
+	padding-bottom: 120px;
+}
+
+#testimonials h2 {
+	width: 70%;
+	margin: 120px auto 30px auto;
+	color: white;
+}
+
+#testimonials em {
+	color: white;
+}
+
+#press img {
+	width: 15%;
+	margin: 0px 30px 80px 30px;
+}
+
+#pricing {
+	padding-right: 100px;
+	padding-left: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+/*****************************Media Queries*****************************************/
+/***********************************************************************************/
+
+@media (max-width: 990px) {
+	.main-theme-image{
+		position: static;
+		transform: rotate(0deg);
+	}
+
+	.main-theme{
+		width: 300px;
+		font-size:2.5rem;
+		text-align: center;
+		margin: 0 auto 8px auto;
+	}
+
+	.main-theme-button{
+		margin: 30px 2px 50px 2px;
+	}
+
+	#press img {
+		width: 15%;
+		padding
+	}
+}
+
+
+/*****************************Developer-info****************************************/
+/***********************************************************************************/
+#developer {
+	color: grey;
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	
+}
